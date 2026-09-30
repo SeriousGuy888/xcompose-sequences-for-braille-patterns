@@ -12,7 +12,8 @@ where `(dots)` is a sequence of the keys
 <kbd>s</kbd>,
 <kbd>z</kbd>,
 <kbd>x</kbd>
-on a QWERTY keyboard, left to right and then top to bottom.
+chosen for their position on a QWERTY keyboard,
+typed left to right then top to bottom.
 Each key's presence in the compose sequence indicates that the corresponding dot is raised.
 
 For example,
