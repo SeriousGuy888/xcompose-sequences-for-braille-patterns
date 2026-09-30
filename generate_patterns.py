@@ -58,7 +58,7 @@ def generate_xcompose(pairings: list[tuple[list[str], str]]) -> str:
     lines = []
     for pair in pairings:
         seq, char = pair
-        seq = ["B"] + seq + ["space"]
+        seq = ["Multi_key", "B"] + seq + ["space"]
         line = ""
         line += " ".join([f"<{k}>" for k in seq])
         line += f"\t: \"{char}\""
